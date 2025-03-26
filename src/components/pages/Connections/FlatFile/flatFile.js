@@ -288,7 +288,7 @@ const FlatFile = () => {
  
     return (  
       <>
-        <div className="w-100 p-4 me-4">  
+        <div className="w-100 me-1">  
             {contextHolder}    
             <div className="d-flex justify-content-between align-items-center mb-2" style={{ overflowX: "auto"}}>
             <div className='d-flex'>  

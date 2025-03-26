@@ -93,9 +93,7 @@
 .options_header{
   display: flex;
   flex-direction: row;
-  /* margin-bottom: 10px; */
   overflow-x: scroll;
-  /* width: 300px !important; */
 }
 
 .options_header_select{

@@ -324,9 +324,9 @@ const WorkSpace = () => {
     // //   -------------------------------------------------------------------------------------------------------
 
   return (
-    <div className="container-fluid" style={{ width: "95.5vw" }}>  
+    <div className='w-100 me-1'>  
     {contextHolder}
-    <div className='row w-100 d-flex justify-content-between mt-2'>  
+    <div className='row w-100 d-flex justify-content-between'>  
 
     <Form className="options_header"> 
     <Form.Item>
@@ -338,7 +338,7 @@ const WorkSpace = () => {
         onChange={handleProjectChange}  
         key={formik.values.current_project || undefined}  
         value={formik.values.current_project || undefined}  
-        dropdownStyle={{ maxHeight: 200, overflowY: 'auto' }}  
+        dropdownStyle={{  overflowY: 'auto' }}  
         >  
         {allProjects?.map((project) => (  
             <Option key={project?.project_id} value={project?.project_id}>  
@@ -389,7 +389,7 @@ const WorkSpace = () => {
                 <Tooltip title="Show All Fields" color={'black'} key={'black'}>  
                     <Switch checked={expanded} onChange={createDataSourceExpand} size='small'/>  
                 </Tooltip>  
-            </Form.Item>
+    </Form.Item>
 
     <Form.Item>
         <Search placeholder="Search by Sap Table Sap Field" 

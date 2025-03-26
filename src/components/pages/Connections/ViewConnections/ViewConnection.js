@@ -289,7 +289,7 @@ const ViewConnection = () => {
     }; 
 
     return (  
-        <div className='p-2 m-2'>  
+        <div className='w-100 me-1'>  
             <ToastContainer
             position='top-center'
             autoClose={2500}
