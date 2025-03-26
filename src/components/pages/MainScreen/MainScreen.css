@@ -1,0 +1,20 @@
+.MainScreen {  
+    display: flex;  
+    flex-direction: column;  
+    justify-content: center;  
+    align-items: center;  
+    height: 100vh;  
+    background-color: #f5f5f5;  
+    margin: 0;           
+    padding: 0;          
+    overflow: hidden;    
+}  
+
+.row {  
+    width: 100%;          
+}  
+
+.col {  
+    padding-left: 0;     
+    padding-right: 0; 
+}

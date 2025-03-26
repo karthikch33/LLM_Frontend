@@ -1,0 +1,16 @@
+.LandingPage {  
+    display: flex;  
+    flex-direction: column;  
+    justify-content: center;  
+    align-items: center;  
+    max-height: 80vh;
+}  
+
+.row {  
+    width: 100%;          
+}  
+
+.col {  
+    padding-left: 0;     
+    padding-right: 0; 
+}
